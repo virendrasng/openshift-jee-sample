@@ -1,6 +1,6 @@
 #FROM jboss/wildfly
 
-#FROM maven:3.6.0-jdk-11-slim
+FROM maven:3.6.0-jdk-11-slim
 
 RUN pwd
 
