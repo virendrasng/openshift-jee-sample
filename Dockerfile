@@ -2,8 +2,8 @@
 
 FROM maven:3.6.0-jdk-11-slim
 
-RUN ls -l ~
-
+RUN cd ~
+RUN pwd
 RUN ls -l
 
 #RUN mvn package -Dmaven.test.skip=true
