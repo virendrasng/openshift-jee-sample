@@ -1,6 +1,6 @@
 FROM jboss/wildfly
 
-RUN sudo yum install maven -y
+FROM maven:3.6.0-jdk-11-slim AS build
 
 RUN mvn package -Dmaven.test.skip=true
 
