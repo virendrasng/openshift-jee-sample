@@ -4,7 +4,7 @@ FROM maven:3.6.0-jdk-11-slim
 
 RUN cd ~
 RUN pwd
-# RUN ls -l
+RUN whereis openshift-jee-sample
 
 #RUN mvn package -Dmaven.test.skip=true
 
