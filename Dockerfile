@@ -1,8 +1,6 @@
 FROM jboss/wildfly
 
-RUN java -version
-
-## RUN apt-get install maven -y
+RUN yum install maven -y
 
 RUN mvn package -Dmaven.test.skip=true
 
